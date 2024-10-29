@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNT Alumni Dashboard</title>
+    <link rel="stylesheet" href="request_info_style.css"> <!-- Reusing the same stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="UNT-Alumni-logo-1.png" alt="UNT Alumni Logo">
+        </div>
+        <nav>
+            <a href="#"><i class="fas fa-rss"></i> Feed</a>
+            <a href="#"><i class="fas fa-user-friends"></i> Network</a>
+            <a href="#"><i class="fas fa-briefcase"></i> Jobs</a>
+            <a href="#"><i class="fas fa-envelope"></i> Inbox</a>
+            <a href="#"><i class="fas fa-bell"></i> Notifications</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="auth-buttons">
+            <button onclick="window.location.href='login.html'">Login</button>
+            <button onclick="window.location.href='signup.html'">Signup</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <h1>Welcome to the UNT Alumni Dashboard</h1>
+            <p>Your gateway to reconnect, network, and discover new opportunities within the UNT alumni community.</p>
+        </section>
+        
+        <section class="features">
+            <div class="feature-box">
+                <i class="fas fa-rss fa-3x"></i>
+                <h2>Community Feed</h2>
+                <p>Stay updated with the latest posts, news, and events shared by the alumni community.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-user-friends fa-3x"></i>
+                <h2>Build Your Network</h2>
+                <p>Connect with fellow alumni, expand your network, and discover mentorship opportunities.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-briefcase fa-3x"></i>
+                <h2>Career Opportunities</h2>
+                <p>Find job openings, career advice, and resources to grow professionally within the alumni network.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h2>Direct Messaging</h2>
+                <p>Engage in meaningful conversations with peers and stay connected directly through messaging.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-bell fa-3x"></i>
+                <h2>Real-Time Notifications</h2>
+                <p>Receive timely notifications about updates, events, and messages within the community.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="UNT-Alumni-logo-1.png" alt="UNT Alumni Logo">
+        </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Advertising</a>
+                <a href="#">Small Business</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Talent Solutions</a>
+                <a href="#">Marketing Solutions</a>
+                <a href="#">Sales Solutions</a>
+                <a href="#">Safety Center</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Community Guidelines</a>
+                <a href="#">Privacy & Terms</a>
+                <a href="#">Mobile App</a>
+            </div>
+        </div>
+        <div class="language-selector">
+            <label for="language">Language</label>
+            <select id="language">
+                <option>English</option>
+            </select>
+        </div>
+    </footer>
+</body>
+</html>
